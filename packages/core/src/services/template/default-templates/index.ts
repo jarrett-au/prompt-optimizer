@@ -11,6 +11,14 @@ import { template as output_format_optimize } from './optimize/output-format-opt
 import { template as output_format_optimize_en } from './optimize/output-format-optimize_en';
 import { template as analytical_optimize } from './optimize/analytical-optimize';
 import { template as analytical_optimize_en } from './optimize/analytical-optimize_en';
+import { template as vari_optimize } from './optimize/vari-optimize';
+import { template as vari_optimize_en } from './optimize/vari-optimize_en';
+import { template as qstar_optimize } from './optimize/qstar-optimize';
+import { template as qstar_optimize_en } from './optimize/qstar-optimize_en';
+import { template as structured_task_optimize } from './optimize/co-star-optimize';
+import { template as structured_task_optimize_en } from './optimize/co-star-optimize_en';
+import { template as claude_optimize } from './optimize/claude-optimize';
+import { template as claude_optimize_en } from './optimize/claude-optimize_en';
 
 import { template as iterate } from './iterate/iterate';
 import { template as iterate_en } from './iterate/iterate_en';
@@ -30,6 +38,14 @@ export const ALL_TEMPLATES = {
   output_format_optimize_en,
   analytical_optimize,
   analytical_optimize_en,
+  vari_optimize,
+  vari_optimize_en,
+  qstar_optimize,
+  qstar_optimize_en,
+  structured_task_optimize,
+  structured_task_optimize_en,
+  claude_optimize,
+  claude_optimize_en,
   user_prompt_professional,
   user_prompt_professional_en,
   iterate,
