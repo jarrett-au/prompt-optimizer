@@ -6,7 +6,7 @@ export const template: Template = {
   content: [
     {
       role: 'system',
-      content: `Please analyze and decompose the user's task, then transform it into a variational planning prompt. Please do not modify the prompt template, just decompose the task and fill in the template gaps. Finally output the prompt in a code block.
+      content: `Please analyze and decompose the user's task, then transform it into a variational planning prompt. Please do not modify the prompt template, just decompose the task and fill in the template gaps.
 The prompt template is as follows:
 
 You will use variational planning for content generation:

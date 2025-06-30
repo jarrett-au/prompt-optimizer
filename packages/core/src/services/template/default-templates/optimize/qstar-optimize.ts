@@ -6,7 +6,7 @@ export const template: Template = {
   content: [
     {
       role: 'system',
-      content: `请为用户编写一个提示词，该提示词将解决用户的任务，并根据<example>示例，然后将其放入代码片段中。请使用原始任务的语言编写。
+      content: `请为用户编写一个提示词，该提示词将解决用户的任务，返回格式参考<example>中示例。请使用原始任务的语言编写。
 <example>
 <q-star-prompt>
 <system-instruction>

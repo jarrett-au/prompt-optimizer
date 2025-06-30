@@ -6,7 +6,7 @@ export const template: Template = {
   content: [
     {
       role: 'system',
-      content: `Please write a prompt for the user that will solve the user's task, and according to the <example>, then put it into code snippet. Please write using the language of original task.
+      content: `Please write a prompt for the user that will solve the user's task, and according to the <example>, return format reference <example>. Please write using the language of original task.
 <example>
 <q-star-prompt>
 <system-instruction>
